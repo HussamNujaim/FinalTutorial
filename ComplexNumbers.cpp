@@ -45,10 +45,11 @@ int main()
     std::cin>>r2;
     std::cout<<"Enter The 2nd Imaginary Number:"<<std::endl;
     std::cin>>i2;
+    
     ComplexNumber c1(r1,i1);
     ComplexNumber c2(r2,i2);
     ComplexOperations complex;
-    string sum = complex.Sum(c1,c2);
+    string sum = complex.Sum(c1,c2); //Summation of 2 complex numbers
     cout << "The Sum = " <<sum<< endl;
     return  0;
 }
